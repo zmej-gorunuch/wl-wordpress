@@ -19,7 +19,7 @@
 
 1. Clone project:
    ```sh
-   git clone
+   git clone https://github.com/zmej-gorunuch/wl-wp-project.git
    composer install
    ```
 2. Update environment variables in the `.env` file. Wrap values that may contain non-alphanumeric characters with quotes, or they may be incorrectly parsed.
