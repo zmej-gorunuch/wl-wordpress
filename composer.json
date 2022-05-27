@@ -1,38 +1,27 @@
 {
-  "name": "roots/bedrock",
+  "name": "weblorem/wl-wp-project",
   "type": "project",
   "license": "MIT",
   "description": "WordPress boilerplate with Composer, easier configuration, and an improved folder structure",
-  "homepage": "https://roots.io/bedrock/",
+  "homepage": "https://weblorem.com/",
   "authors": [
-    {
-      "name": "Scott Walkinshaw",
-      "email": "scott.walkinshaw@gmail.com",
-      "homepage": "https://github.com/swalkinshaw"
-    },
-    {
-      "name": "Ben Word",
-      "email": "ben@benword.com",
-      "homepage": "https://github.com/retlehs"
-    },
     {
       "name": "Eugene Mazuryk",
       "email": "mazuryk.e@weblorem.com",
-      "homepage": "https://weblorem.com"
+      "homepage": "https://mazuryk-e.weblorem.com/"
     }
   ],
-  "keywords": [
-    "bedrock", "composer", "roots", "wordpress", "wp", "wp-config"
-  ],
-  "support": {
-    "issues": "https://github.com/roots/bedrock/issues",
-    "forum": "https://discourse.roots.io/category/bedrock"
-  },
+  "keywords": ["bedrock", "composer", "roots", "wordpress", "wp", "wp-config"],
   "repositories": [
     {
       "type": "composer",
       "url": "https://wpackagist.org",
       "only": ["wpackagist-plugin/*", "wpackagist-theme/*"]
+    },
+    {
+      "type": "vcs",
+      "name": "weblorem/weblorem",
+      "url": "git@github.com:zmej-gorunuch/wl-wp-theme.git"
     },
     {
       "type": "package",
@@ -54,13 +43,14 @@
     "oscarotero/env": "^2.1",
     "roots/bedrock-autoloader": "^1.0",
     "roots/bedrock-disallow-indexing": "^2.0",
-    "roots/wordpress": "5.9.3",
+    "roots/wordpress": "6.0",
     "roots/wp-config": "1.0.0",
     "roots/wp-password-bcrypt": "1.1.0",
     "advanced-custom-fields/advanced-custom-fields-pro": "^5.12.2",
-    "wpackagist-plugin/wp-svg-images":"^4.0",
+    "wpackagist-plugin/easy-svg":"^3.2.0",
     "wpackagist-plugin/intuitive-custom-post-order":"^3.1.3",
-    "wpackagist-plugin/cyr3lat":"^3.5"
+    "wpackagist-plugin/cyr3lat":"^3.5",
+    "weblorem/weblorem": "dev-master"
   },
   "require-dev": {
     "squizlabs/php_codesniffer": "^3.6.2",
