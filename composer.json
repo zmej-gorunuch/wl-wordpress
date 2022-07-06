@@ -57,7 +57,8 @@
     "roave/security-advisories": "dev-latest",
     "wpackagist-plugin/debug-bar":"^1.1",
     "wpackagist-plugin/show-current-template": "^0.4.6",
-    "wpackagist-plugin/regenerate-thumbnails":"^3.1.5"
+    "wpackagist-plugin/regenerate-thumbnails":"^3.1.5",
+    "wpackagist-plugin/duplicate-post-page-menu-custom-post-type":"^2.2.0"
   },
   "config": {
     "optimize-autoloader": true,
