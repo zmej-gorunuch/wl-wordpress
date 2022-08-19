@@ -1,13 +1,11 @@
 ## WebLorem WordPress starter project
 
 <p>
-  <a href="https://roots.io/bedrock/">
-    <img alt="WebLorem logo" src="https://weblorem.com/wp-content/uploads/2022/04/logo.svg" height="70">
-  </a>
+  <img alt="WebLorem logo" src="https://weblorem.com/app/uploads/2022/04/logo.svg" height="70">
 </p>
 
 <p>
-    <img src="https://img.shields.io/badge/theme-v2.0-informational" alt="Version">
+    <img src="https://img.shields.io/badge/theme-v2.1-informational" alt="Version">
 </p>
 
 ## Requirements
