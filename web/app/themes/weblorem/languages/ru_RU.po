@@ -1,0 +1,223 @@
+#.  Theme Name of the theme
+msgid "weblorem"
+msgstr ""
+
+#.  Description of the theme
+msgid "Custom WordPress theme with WooCommerce support."
+msgstr "Тема WordPress с поддержкой WooCommerce."
+
+#.  Author of the theme
+msgid "Eugene Mazuryk"
+msgstr "Мазурик Евгений"
+
+#.  Author URI of the theme
+msgid "https://weblorem.com"
+msgstr ""
+
+#: 404.php:15
+msgid "Oops! That page can&rsquo;t be found."
+msgstr "Ой! Эту страницу невозможно найти."
+
+#: comments.php:36
+#, php-format
+msgid "One thought on &ldquo;%1$s&rdquo;"
+msgstr "Комментарий к &ldquo;%1$s&rdquo;"
+
+#: comments.php:42
+#, php-format
+msgctxt "comments title"
+msgid "%1$s thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] "%1$s комментарий к &ldquo;%2$s&rdquo;"
+msgstr[1] "%1$s комментарии к до &ldquo;%2$s&rdquo;"
+
+#: comments.php:69
+msgid "Comments are closed."
+msgstr "Комментарии закрыты."
+
+#: footer.php:16
+msgid "https://wordpress.org"
+msgstr ""
+
+#: footer.php:19
+#, php-format
+msgid "Proudly powered by %s"
+msgstr "Работает на %s"
+
+#: footer.php:25
+#, php-format
+msgid "Theme: %1$s by %2$s."
+msgstr "Тема: %1$s от %2$s."
+
+#: search.php:19
+#, php-format
+msgid "Search Results for: %s"
+msgstr "Результаты поиска для: %s"
+
+#: inc/acf.php:35 inc/cf7.php:21 inc/polylang.php:36
+msgid "Plugin is required for the site"
+msgstr "Плагин обязательный для работы сайта"
+
+#: inc/acf.php:66 inc/acf.php:75 inc/acf.php:98
+msgid "General settings"
+msgstr "Общие настройки"
+
+#: inc/acf.php:67 inc/acf.php:70
+msgid "Theme"
+msgstr "Тема"
+
+#: inc/acf.php:76 inc/acf.php:99 inc/admin/theme-settings-page.php:244
+#: inc/admin/theme-settings-page.php:249
+msgid "Edit Theme"
+msgstr "Редактировать тему"
+
+#: inc/acf.php:79 inc/acf.php:102
+msgid "Update"
+msgstr "Обновить"
+
+#: inc/acf.php:80 inc/acf.php:103
+msgid "Options Updated"
+msgstr "Настройки обновлено"
+
+#: inc/ajax.php:42
+msgid "Ajax Error!"
+msgstr ""
+
+#: inc/ajax.php:64 inc/ajax.php:68
+msgid "Required field."
+msgstr "Не заполнено обязательное поле."
+
+#: inc/ajax.php:70
+msgid "Check phone number."
+msgstr "Проверьте указанный номер телефона."
+
+#: inc/ajax.php:79
+msgid "Message sent!"
+msgstr "Сообщение отправлено!"
+
+#: inc/ajax.php:85
+msgid "Error sending message!"
+msgstr "Ошибка отправки сообщения!"
+
+#: inc/ajax.php:90
+msgid "Check that the form data is filled in correctly."
+msgstr "Проверьте правильно ли заполнены данные формы."
+
+#: inc/helpers.php:169
+msgid "Name"
+msgstr "Имя"
+
+#: inc/helpers.php:170
+msgid "Phone"
+msgstr "Телефон"
+
+#: inc/helpers.php:172
+msgid "Message"
+msgstr "Сообщение"
+
+#: inc/nav_menus.php:16
+msgid "Main menu"
+msgstr "Главное меню"
+
+#: inc/pagination.php:33
+msgid "Previous"
+msgstr "Предыдущие"
+
+#: inc/pagination.php:34
+msgid "Next"
+msgstr "Следующие"
+
+#: inc/sidebars.php:18
+msgid "Sidebar"
+msgstr "Сайдбар"
+
+#: inc/sidebars.php:20
+msgid "Add widgets here."
+msgstr "Добавьте виджеты здесь."
+
+#: inc/admin/admin-functions.php:92 inc/admin/admin-functions.php:93
+msgid "Menu"
+msgstr "Меню"
+
+#: inc/admin/admin-functions.php:130
+#, php-format
+msgid "Theme developer: %1$s. Powered by %2$s."
+msgstr "Тему создано: %1$s. Работает на %2$s."
+
+#: inc/admin/admin-functions.php:147
+msgid "Image"
+msgstr "Изображение"
+
+#: inc/admin/theme-settings-page.php:12 inc/admin/theme-settings-page.php:13
+msgid "Theme Settings"
+msgstr "Настройка темы"
+
+#: inc/admin/theme-settings-page.php:45
+msgid "Dashboard menu"
+msgstr "Админ меню"
+
+#: inc/admin/theme-settings-page.php:47
+msgid "Other settings"
+msgstr "Другие настройки"
+
+#: inc/admin/settings-page.php:77
+msgid "WooCommerce settings"
+msgstr "WooCommerce настройки"
+
+#: inc/admin/theme-settings-page.php:150 inc/admin/theme-settings-page.php:161
+#: inc/admin/theme-settings-page.php:172 inc/admin/theme-settings-page.php:183
+#: inc/admin/theme-settings-page.php:194 inc/admin/theme-settings-page.php:205
+#: inc/admin/theme-settings-page.php:216 inc/admin/theme-settings-page.php:227
+#: inc/admin/theme-settings-page.php:238 inc/admin/theme-settings-page.php:249
+#: inc/admin/theme-settings-page.php:261 inc/admin/theme-settings-page.php:274
+#: inc/admin/theme-settings-page.php:287
+msgid "Hide menu item"
+msgstr "Скрыть пункт меню"
+
+#: inc/admin/theme-settings-page.php:322
+msgid "Remove archives"
+msgstr "Удалить архивы"
+
+#: inc/admin/theme-settings-page.php:327
+msgid "Archive pages will be disabled and all links will be redirected to the main page"
+msgstr "Страницы архивов будут отключены, а все ссылки перенаправлены на главную страницу"
+
+#: inc/admin/theme-settings-page.php:333
+msgid "Disable Gutenberg"
+msgstr "Отключить Gutenberg"
+
+#: inc/admin/theme-settings-page.php:338
+msgid "Replace the Gutenberg editor with the classic WordPress editor"
+msgstr "Заменит редактор Gutenberg на классический редактор WordPress"
+
+#: inc/admin/other-settings.php:63
+msgid "Enable emojis"
+msgstr "Включить emojis"
+
+#: inc/admin/other-settings.php:68
+msgid "Enable Emojis in WordPress theme"
+msgstr "Включить поддержку Emojis в WordPress теме"
+
+#: inc/admin/theme-settings-page.php:359
+msgid "Select which menu items you wish to hide in the WordPress dashboard menu."
+msgstr "Выберите элементы меню, которые вы хотите скрыть в меню информационной панели WordPress."
+
+#: inc/admin/theme-settings-page.php:366
+msgid "Select which theme settings to make it as easy as possible to configure it to suit your needs."
+msgstr "Выберите настройки темы чтобы максимально удобно настроить ее работу в соответствии с вашими потребностями."
+
+#: template-parts/content-none.php:13
+msgid "Nothing Found"
+msgstr "Ничего не найдено"
+
+#: index.php:20
+msgid "Select static homepage in settings"
+msgstr "Выберите статическую домашнюю страницу в настройках"
+
+#: index.php:26
+msgid "Web site is temporarily down!"
+msgstr "Вебсайт временно недоступен!"
+
+#: page.php:23
+msgid "Page is not assigned template!"
+msgstr "Странице не назначен шаблон!"
