@@ -42,13 +42,14 @@
     "roots/wp-config": "1.0.0",
     "roots/wp-password-bcrypt": "1.1.0",
     "advanced-custom-fields/advanced-custom-fields-pro": "^5.12.2",
-    "wpackagist-plugin/easy-svg":"dev-trunk",
-    "wpackagist-plugin/intuitive-custom-post-order":"dev-trunk",
-    "wpackagist-plugin/cyr3lat":"dev-trunk",
-    "wpackagist-plugin/webp-express":"dev-trunk",
-    "wpackagist-plugin/regenerate-thumbnails":"^3.1.5",
-    "wpackagist-plugin/duplicate-post-page-menu-custom-post-type":"^2.2.0",
-    "wpackagist-plugin/change-wp-admin-login":"^1.1.0"
+    "wpackagist-plugin/easy-svg":"*",
+    "wpackagist-plugin/intuitive-custom-post-order":"*",
+    "wpackagist-plugin/cyr3lat":"*",
+    "wpackagist-plugin/webp-express":"*",
+    "wpackagist-plugin/regenerate-thumbnails":"*",
+    "wpackagist-plugin/bcm-duplicate-menu":"*",
+    "wpackagist-plugin/change-wp-admin-login":"*",
+    "wpackagist-plugin/wp-optimize":"*"
   },
   "require-dev": {
     "squizlabs/php_codesniffer": "^3.6.2",
