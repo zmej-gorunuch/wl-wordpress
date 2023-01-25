@@ -36,7 +36,18 @@
       - Generate with [our WordPress salts generator](https://roots.io/salts.html)
 
 3. Access WordPress admin at `https://example.com/wp/wp-admin/`
+4. Added CodeSniffer WordPress coding standard:
 
+    Linux 
+    
+    `vendor/bin/phpcs --config-set installed_paths vendor/wp-coding-standards/wpcs`
+
+    Windows 
+    
+    `vendor\bin\phpcs --config-set installed_paths vendor\wp-coding-standards\wpcs`
+    
+    Check installed standards: `vendor/bin/phpcs -i`
+    
 ### File Structure in WebLorem theme
  
 <details>
