@@ -1,33 +1,30 @@
-User-agent:  *
-Allow: /
+User-agent: *
 
-# disallow all files in these directories
 Disallow: /cgi-bin
-Disallow: /wp-admin
-Disallow: /wp-includes
-Disallow: /wp-content
-Disallow: /wp-login.php
-Disallow: /trackback
-Disallow: /comments
+Disallow: /?
+Disallow: /wp-
+Disallow: /wp/
+Disallow: *?s=
+Disallow: *&s=
+Disallow: /search/
+Disallow: /author/
+Disallow: /users/
 Disallow: */trackback
-Disallow: */comments
+Disallow: */feed
+Disallow: */rss
+Disallow: */embed
+Disallow: */wlwmanifest.xml
+Disallow: /xmlrpc.php
+Disallow: *utm*=
+Disallow: *openstat=
 
-# disallow all files with ? in url
-Disallow: /*?*
-
-User-agent: Mediapartners-Google
-Allow: /
-
-User-agent: Adsbot-Google
-Allow: /
-
-User-agent: Googlebot-Image
-Allow: /
-
-User-agent: Googlebot-Mobile
-Allow: /
-
-User-agent: ia_archiver-web.archive.org
-Disallow: /
+Allow: */uploads
+Allow: /*/*.js
+Allow: /*/*.css
+Allow: /wp-*.png
+Allow: /wp-*.jpg
+Allow: /wp-*.jpeg
+Allow: /wp-*.gif
+Allow: /wp-admin/admin-ajax.php
 
 Sitemap: http://domain.com/sitemap.xml
