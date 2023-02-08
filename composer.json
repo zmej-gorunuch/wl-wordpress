@@ -22,11 +22,11 @@
       "type": "package",
       "package": {
         "name": "advanced-custom-fields/advanced-custom-fields-pro",
-        "version": "5.12.2",
+        "version": "6.0.7",
         "type": "wordpress-plugin",
         "dist": {
           "type": "zip",
-          "url": "https://connect.advancedcustomfields.com/index.php?a=download&p=pro&k=b3JkZXJfaWQ9NjQyNzF8dHlwZT1kZXZlbG9wZXJ8ZGF0ZT0yMDE1LTA5LTE3IDExOjM3OjEw&t=5.12.2"
+          "url": "https://connect.advancedcustomfields.com/index.php?a=download&p=pro&k=b3JkZXJfaWQ9NjQyNzF8dHlwZT1kZXZlbG9wZXJ8ZGF0ZT0yMDE1LTA5LTE3IDExOjM3OjEw&t=6.0.7"
         }
       }
     }
@@ -41,15 +41,15 @@
     "roots/wordpress": "^6.0",
     "roots/wp-config": "1.0.0",
     "roots/wp-password-bcrypt": "1.1.0",
-    "advanced-custom-fields/advanced-custom-fields-pro": "^5.12.2",
+    "advanced-custom-fields/advanced-custom-fields-pro": "^6.0.7",
     "wpackagist-plugin/easy-svg":"*",
-    "wpackagist-plugin/intuitive-custom-post-order":"*",
     "wpackagist-plugin/cyr3lat":"*",
     "wpackagist-plugin/webp-express":"*",
     "wpackagist-plugin/regenerate-thumbnails":"*",
     "wpackagist-plugin/bcm-duplicate-menu":"*",
     "wpackagist-plugin/change-wp-admin-login":"*",
-    "wpackagist-plugin/wp-optimize":"*"
+    "wpackagist-plugin/wp-optimize":"*",
+    "wpackagist-plugin/simple-custom-post-order":"*"
   },
   "require-dev": {
     "wp-coding-standards/wpcs": "^0.14.0",
