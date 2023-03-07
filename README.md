@@ -18,9 +18,12 @@
 1. Clone project:
    ```sh
    git clone https://github.com/zmej-gorunuch/wl-wp-project.git
+   ```
+2. Install project:
+   ```sh 
    composer install
    ```
-2. Update environment variables in the `.env` file. Wrap values that may contain non-alphanumeric characters with quotes, or they may be incorrectly parsed.
+3. Update environment variables in the `.env` file. Wrap values that may contain non-alphanumeric characters with quotes, or they may be incorrectly parsed.
 
     - Database variables
       - `DB_NAME` - Database name
@@ -35,41 +38,25 @@
       - Generate with [wp-cli-dotenv-command](https://github.com/aaemnnosttv/wp-cli-dotenv-command)
       - Generate with [our WordPress salts generator](https://roots.io/salts.html)
 
-3. Access WordPress admin at `https://example.com/wp/wp-admin/`
-4. Added CodeSniffer WordPress coding standard:
+#
+Access WordPress admin at:
+`https://example.com/wp/wp-admin/`
 
-    Linux 
+#
+Added CodeSniffer WordPress coding standard:
     
-    `vendor/bin/phpcs --config-set installed_paths vendor/wp-coding-standards/wpcs`
-
-    Windows 
-    
-    `vendor\bin\phpcs --config-set installed_paths vendor\wp-coding-standards\wpcs`
-    
-    Check installed standards: `vendor/bin/phpcs -i`
-    
-### File Structure in WebLorem theme
- 
-<details>
-<summary>assets</summary>
-- <b>assets</b> folder holds all project's resource files
-</details>
-<details>
-<summary>inc</summary>
-- <b>inc</b> folder is the place for all PHP functions of the theme. The functions.php just includes all these files
-</details>
-<details>
-<summary>languages</summary>
-- <b>languages</b> folder the place for files with translation of the theme into other languages 
-</details>
-<details>
-<summary>template-pages</summary>
-- <b>template-pages</b> folder contains the page template files 
-</details>
-<details>
-<summary>template-parts</summary>
-- <b>template-parts</b> folder contains the files, which display parts of the theme and are included in other files
-</details>
+   Linux 
+```sh 
+vendor/bin/phpcs --config-set installed_paths vendor/wp-coding-standards/wpcs
+```
+   Windows 
+```sh
+vendor\bin\phpcs --config-set installed_paths vendor\wp-coding-standards\wpcs
+```
+   Check installed standards: 
+```sh
+`vendor/bin/phpcs -i
+```
 
 ## Original Bedrock documentation
 
