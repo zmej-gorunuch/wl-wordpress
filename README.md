@@ -37,14 +37,12 @@
     - `AUTH_KEY`, `SECURE_AUTH_KEY`, `LOGGED_IN_KEY`, `NONCE_KEY`, `AUTH_SALT`, `SECURE_AUTH_SALT`, `LOGGED_IN_SALT`, `NONCE_SALT`
       - Generate with [wp-cli-dotenv-command](https://github.com/aaemnnosttv/wp-cli-dotenv-command)
       - Generate with [our WordPress salts generator](https://roots.io/salts.html)
-
 #
+
 Access WordPress admin at:
 `https://example.com/wp/wp-admin/`
 
-#
 Added CodeSniffer WordPress coding standard:
-    
    Linux 
 ```sh 
 vendor/bin/phpcs --config-set installed_paths vendor/wp-coding-standards/wpcs
@@ -55,7 +53,7 @@ vendor\bin\phpcs --config-set installed_paths vendor\wp-coding-standards\wpcs
 ```
    Check installed standards: 
 ```sh
-`vendor/bin/phpcs -i
+vendor/bin/phpcs -i
 ```
 
 ## Original Bedrock documentation
