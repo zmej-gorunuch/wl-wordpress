@@ -23,7 +23,7 @@
       "package": {
         "name": "advanced-custom-fields/advanced-custom-fields-pro",
         "version": "6.1.6",
-        "type": "wordpress-plugin",
+        "type": "wordpress-muplugin",
         "dist": {
           "type": "zip",
           "url": "https://connect.advancedcustomfields.com/index.php?a=download&p=pro&k=b3JkZXJfaWQ9NjQyNzF8dHlwZT1kZXZlbG9wZXJ8ZGF0ZT0yMDE1LTA5LTE3IDExOjM3OjEw&t=6.1.6"
@@ -44,11 +44,9 @@
     "advanced-custom-fields/advanced-custom-fields-pro": "^6.1.6",
     "wpackagist-plugin/easy-svg":"*",
     "wpackagist-plugin/cyr3lat":"*",
-    "wpackagist-plugin/webp-express":"*",
     "wpackagist-plugin/regenerate-thumbnails":"*",
     "wpackagist-plugin/bcm-duplicate-menu":"*",
     "wpackagist-plugin/change-wp-admin-login":"*",
-    "wpackagist-plugin/wp-optimize":"*",
     "wpackagist-plugin/simple-custom-post-order":"*"
   },
   "require-dev": {
@@ -67,7 +65,18 @@
   "prefer-stable": true,
   "extra": {
     "installer-paths": {
-      "web/app/mu-plugins/{$name}/": ["type:wordpress-muplugin"],
+      "web/app/mu-plugins/{$name}/": [
+        "type:wordpress-muplugin",
+        "advanced-custom-fields/advanced-custom-fields-pro",
+        "wpackagist-plugin/easy-svg",
+        "wpackagist-plugin/change-wp-admin-login",
+        "wpackagist-plugin/regenerate-thumbnails",
+        "wpackagist-plugin/cyr3lat",
+        "wpackagist-plugin/bcm-duplicate-menu",
+        "wpackagist-plugin/simple-custom-post-order",
+        "wpackagist-plugin/webp-express",
+        "wpackagist-plugin/wp-optimize"
+      ],
       "web/app/plugins/{$name}/": ["type:wordpress-plugin"],
       "web/app/themes/{$name}/": ["type:wordpress-theme"]
     },
