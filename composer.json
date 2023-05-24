@@ -68,7 +68,6 @@
       "web/app/mu-plugins/{$name}/": [
         "type:wordpress-muplugin",
         "advanced-custom-fields/advanced-custom-fields-pro",
-        "wpackagist-plugin/easy-svg",
         "wpackagist-plugin/change-wp-admin-login",
         "wpackagist-plugin/regenerate-thumbnails",
         "wpackagist-plugin/cyr3lat",
