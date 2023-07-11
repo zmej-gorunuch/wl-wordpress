@@ -65,17 +65,7 @@
   "prefer-stable": true,
   "extra": {
     "installer-paths": {
-      "web/app/mu-plugins/{$name}/": [
-        "type:wordpress-muplugin",
-        "advanced-custom-fields/advanced-custom-fields-pro",
-        "wpackagist-plugin/change-wp-admin-login",
-        "wpackagist-plugin/regenerate-thumbnails",
-        "wpackagist-plugin/cyr3lat",
-        "wpackagist-plugin/bcm-duplicate-menu",
-        "wpackagist-plugin/simple-custom-post-order",
-        "wpackagist-plugin/webp-express",
-        "wpackagist-plugin/wp-optimize"
-      ],
+      "web/app/mu-plugins/{$name}/": ["type:wordpress-muplugin"],
       "web/app/plugins/{$name}/": ["type:wordpress-plugin"],
       "web/app/themes/{$name}/": ["type:wordpress-theme"]
     },
