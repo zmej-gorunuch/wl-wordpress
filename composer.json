@@ -44,14 +44,17 @@
     "advanced-custom-fields/advanced-custom-fields-pro": "^6.1.6",
     "wpackagist-plugin/easy-svg":"*",
     "wpackagist-plugin/cyr3lat":"*",
-    "wpackagist-plugin/regenerate-thumbnails":"*",
     "wpackagist-plugin/bcm-duplicate-menu":"*",
     "wpackagist-plugin/change-wp-admin-login":"*",
-    "wpackagist-plugin/simple-custom-post-order":"*"
+    "wpackagist-plugin/simple-custom-post-order":"*",
+    "matthiasmullie/minify": "^1.3",
+    "wpackagist-plugin/woocommerce":"*"
   },
   "require-dev": {
     "wp-coding-standards/wpcs": "^0.14.0",
-    "roave/security-advisories": "dev-latest"
+    "roave/security-advisories": "dev-latest",
+    "wpackagist-plugin/regenerate-thumbnails":"*",
+    "wpackagist-plugin/fakerpress":"*"
   },
   "config": {
     "optimize-autoloader": true,
