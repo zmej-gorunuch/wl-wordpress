@@ -29,6 +29,18 @@
           "url": "https://connect.advancedcustomfields.com/index.php?a=download&p=pro&k=b3JkZXJfaWQ9NjQyNzF8dHlwZT1kZXZlbG9wZXJ8ZGF0ZT0yMDE1LTA5LTE3IDExOjM3OjEw&t=6.1.6"
         }
       }
+    },
+    {
+      "type": "package",
+      "package": {
+        "name": "polylang/polylang-pro",
+        "version": "3.6.3",
+        "type": "wordpress-muplugin",
+        "dist": {
+          "type": "zip",
+          "url": "https://weblorem.com/wordpress-plugins/polylang-pro_v3.6.3.zip"
+        }
+      }
     }
   ],
   "require": {
