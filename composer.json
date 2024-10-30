@@ -53,6 +53,7 @@
     "roots/wordpress": "^6.0",
     "roots/wp-config": "1.0.0",
     "roots/wp-password-bcrypt": "1.1.0",
+    "wp-cli/wp-cli-bundle": "*",
     "advanced-custom-fields/advanced-custom-fields-pro": "^6.3.6",
     "wpackagist-plugin/easy-svg":"*",
     "wpackagist-plugin/cyr3lat":"*",
@@ -97,6 +98,7 @@
     "remove-old-wp-themes": [
       "rm -rf web/wp/wp-content/themes/twenty*"
     ],
+    "wp": "vendor/bin/wp  --path=public_html/wp",
     "test": [
       "phpcs"
     ]
