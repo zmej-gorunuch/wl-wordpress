@@ -24,6 +24,9 @@ web/.htaccess
 ### Composer ###
 /vendor
 
+### Docker ###
+.docker/mysql/*
+
 ### WP-CLI ###
 wp-cli.local.yml
 

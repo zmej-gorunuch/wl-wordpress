@@ -5,7 +5,7 @@
 </p>
 
 <p>
-    <img src="https://img.shields.io/badge/theme-v2.1-informational" alt="Version">
+    <img src="https://img.shields.io/badge/theme-v2.2-informational" alt="Version">
 </p>
 
 ## Requirements
@@ -13,48 +13,58 @@
 - PHP >= 7.4
 - Composer - [Install](https://getcomposer.org/doc/00-intro.md#installation-linux-unix-osx)
 
-## Installation
+## Featured plugins:
 
-1. Clone project:
+1. Easy SVG Support
    ```sh
-   git clone https://github.com/zmej-gorunuch/wl-wp-project.git
+   "wpackagist-plugin/easy-svg":"^3.8",
    ```
-2. Install project:
+2. Cyr to Lat enhanced
    ```sh 
-   composer install
+   "wpackagist-plugin/cyr3lat":"^3.7",
    ```
-3. Update environment variables in the `.env` file. Wrap values that may contain non-alphanumeric characters with quotes, or they may be incorrectly parsed.
+3. BCM Duplicate Menu
+   ```sh 
+   "wpackagist-plugin/bcm-duplicate-menu":"^1.1.2",
+   ```
+4. All In One Login — WordPress Login Security Plugin to Protect and Customize WP Admin
+   ```sh 
+   "wpackagist-plugin/change-wp-admin-login":"^2.0.4",
+   ```
+5. Simple Custom Post Order
+   ```sh 
+   "wpackagist-plugin/simple-custom-post-order":"^2.5.10",
+   ```
+6. WooCommerce
+   ```sh 
+   "wpackagist-plugin/woocommerce":"^9.4.3"
+   ```
+7. Yoast SEO
+   ```sh 
+   "wpackagist-plugin/wordpress-seo":"^24.0"
+   ```
+8. Regenerate Thumbnails
+   ```sh 
+   "wpackagist-plugin/regenerate-thumbnails":"^3.1.6"
+   ```
+9. FakerPress
+   ```sh 
+   "wpackagist-plugin/fakerpress":"^0.6.6"
+   ```
 
-    - Database variables
-      - `DB_NAME` - Database name
-      - `DB_USER` - Database user
-      - `DB_PASSWORD` - Database password
-      - `DB_HOST` - Database host
-      - Optionally, you can define `DATABASE_URL` for using a DSN instead of using the variables above (e.g. `mysql://user:password@127.0.0.1:3306/db_name`)
-    - `WP_ENV` - Set to environment (`development`, `staging`, `production`)
-    - `WP_HOME` - Full URL to WordPress home (https://example.com)
-    - `WP_SITEURL` - Full URL to WordPress including subdirectory (https://example.com/wp)
-    - `AUTH_KEY`, `SECURE_AUTH_KEY`, `LOGGED_IN_KEY`, `NONCE_KEY`, `AUTH_SALT`, `SECURE_AUTH_SALT`, `LOGGED_IN_SALT`, `NONCE_SALT`
-      - Generate with [wp-cli-dotenv-command](https://github.com/aaemnnosttv/wp-cli-dotenv-command)
-      - Generate with [our WordPress salts generator](https://roots.io/salts.html)
-#
-
-Access WordPress admin at:
-`https://example.com/wp/wp-admin/`
-
-Added CodeSniffer WordPress coding standard:
-   Linux 
-```sh 
-vendor/bin/phpcs --config-set installed_paths vendor/wp-coding-standards/wpcs
-```
+### Added CodeSniffer WordPress coding standard:
+   Linux
+   ```sh 
+   vendor/bin/phpcs --config-set installed_paths vendor/wp-coding-standards/wpcs
+   ```
    Windows 
-```sh
-vendor\bin\phpcs --config-set installed_paths vendor\wp-coding-standards\wpcs
-```
+   ```sh
+   vendor\bin\phpcs --config-set installed_paths vendor\wp-coding-standards\wpcs
+   ```
    Check installed standards: 
-```sh
-vendor/bin/phpcs -i
-```
+   ```sh
+   vendor/bin/phpcs -i
+   ```
 
 ## Original Bedrock documentation
 
