@@ -1,5 +1,5 @@
 {
-  "name": "weblorem/wl-wp-project",
+  "name": "weblorem/wl-wordpress",
   "type": "project",
   "license": "MIT",
   "description": "WordPress boilerplate with Composer, easier configuration, and an improved folder structure",
@@ -23,7 +23,7 @@
       "package": {
         "name": "advanced-custom-fields/advanced-custom-fields-pro",
         "version": "6.3.6",
-        "type": "wordpress-muplugin",
+        "type": "wordpress-plugin",
         "dist": {
           "type": "zip",
           "url": "https://weblorem.com/wordpress-plugins/advanced-custom-fields-pro_v6.3.6.zip"
@@ -35,7 +35,7 @@
       "package": {
         "name": "polylang/polylang-pro",
         "version": "3.6.3",
-        "type": "wordpress-muplugin",
+        "type": "wordpress-plugin",
         "dist": {
           "type": "zip",
           "url": "https://weblorem.com/wordpress-plugins/polylang-pro_v3.6.3.zip"
@@ -88,17 +88,14 @@
     "wordpress-install-dir": "web/wp"
   },
   "scripts": {
-    "post-root-package-install": [
-      "php -r \"copy('.env.example', '.env');\""
-    ],
     "post-install-cmd": [
-      "php -r \"copy('.env.example', '.env');\"",
+      "php -r \"if (!file_exists('.env')) copy('.env.example', '.env');\"",
       "composer run remove-old-wp-themes"
     ],
     "remove-old-wp-themes": [
       "rm -rf web/wp/wp-content/themes/twenty*"
     ],
-    "wp": "vendor/bin/wp  --path=public_html/wp",
+    "wp": "vendor/bin/wp  --path=web/wp",
     "test": [
       "phpcs"
     ]
